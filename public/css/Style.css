@@ -1,0 +1,65 @@
+* {
+  font-family: "Verdana", sans-serif;
+}
+
+.logoCN {
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 80px;
+  width: 160px;
+}
+
+.logoNinja {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.boxLogin {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+}
+
+.messageError {
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: red;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+.containerBox {
+  background-color: #f2f2f2;
+  transition: all 0.4s ease-in-out;
+}
+
+.containerBox:hover {
+  box-shadow: 4px 4px 6px 6px rgb(131, 242, 145);
+  transform: scale(1.1);
+}
+
+.textMessage {
+  text-align: center;
+  font-size: 35px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textMessageSmall {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.textPara {
+  color: blue;
+  text-align: center;
+  width: 100%;
+}
